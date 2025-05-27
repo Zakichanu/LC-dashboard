@@ -4,8 +4,8 @@
   "homepage": "https://github.com/sap-labs-france/ev-dashboard",
   "version": "2.7.9",
   "engines": {
-    "node": "^16.15.x",
-    "npm": "^8.11.x"
+    "node": "^18.x.x",
+    "npm": "^9.x.x"
   },
   "repository": {
     "type": "git",
