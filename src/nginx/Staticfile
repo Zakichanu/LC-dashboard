@@ -1,4 +1,0 @@
-root: /
-location_include: includes/*.conf
-status_codes:
-  404: /index.html

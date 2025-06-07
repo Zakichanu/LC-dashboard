@@ -24,9 +24,77 @@ $app-indigo: mat.define-palette(mat.$indigo-palette, 700);
 $app-pink: mat.define-palette(mat.$pink-palette, 700);
 
 // Light Theme ---------------------------------
+// Define custom palette for primary color #2CA8D5
+$custom-primary-palette: (
+  50: lighten(#2CA8D5, 40%),
+  100: lighten(#2CA8D5, 30%),
+  200: lighten(#2CA8D5, 20%),
+  300: lighten(#2CA8D5, 10%),
+  400: lighten(#2CA8D5, 5%),
+  500: #2CA8D5,
+  600: darken(#2CA8D5, 5%),
+  700: darken(#2CA8D5, 10%),
+  800: darken(#2CA8D5, 15%),
+  900: darken(#2CA8D5, 20%),
+  A100: lighten(#2CA8D5, 25%),
+  A200: lighten(#2CA8D5, 15%),
+  A400: #2CA8D5,
+  A700: darken(#2CA8D5, 10%),
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+// Define custom palette for secondary color #6AC26F
+$custom-accent-palette: (
+  50: lighten(#6AC26F, 40%),
+  100: lighten(#6AC26F, 30%),
+  200: lighten(#6AC26F, 20%),
+  300: lighten(#6AC26F, 10%),
+  400: lighten(#6AC26F, 5%),
+  500: #6AC26F,
+  600: darken(#6AC26F, 5%),
+  700: darken(#6AC26F, 10%),
+  800: darken(#6AC26F, 15%),
+  900: darken(#6AC26F, 20%),
+  A100: lighten(#6AC26F, 25%),
+  A200: lighten(#6AC26F, 15%),
+  A400: #6AC26F,
+  A700: darken(#6AC26F, 10%),
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
 // Define colors
-$app-primary: mat.define-palette(mat.$blue-palette, 700);
-$app-accent: mat.define-palette(mat.$blue-palette, 500);
+$app-primary: mat.define-palette($custom-primary-palette);
+$app-accent: mat.define-palette($custom-accent-palette);
 $app-danger: mat.define-palette(mat.$red-palette, 700);
 // Create the theme
 $app-theme: mat.define-light-theme($app-primary, $app-accent, $app-danger);
