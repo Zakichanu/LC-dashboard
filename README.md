@@ -1,8 +1,8 @@
-# Open e-Mobility Angular Dashboard App
+# LeasyCloud Angular Dashboard App
 
 ## Summary
 
-The Angular dashboard connects to the [Open e-Mobility NodeJs Server](https://github.com/sap-labs-france/ev-server) to display the charging stations in real time.
+The Angular dashboard connects to the [Open LeasyCloud NodeJs Server](https://github.com/sap-labs-france/ev-server) to display the charging stations in real time.
 
 The application features:
 

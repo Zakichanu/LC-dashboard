@@ -28,7 +28,7 @@
     "connectors": "Conexões",
     "notifications": "Notificações",
     "general": "Main",
-    "app_name": "Open e-Mobility",
+    "app_name": "LeasyCloud",
     "version": "Versão",
     "about_us": "Sobre Nós",
     "unexpected_error_backend": "Ocurreu um erro inesperado",
@@ -553,7 +553,7 @@
     "eula": "Acordo de licenciamento unico",
     "must_accept_eula": "Você deve aceitar o licneciamento unico",
     "no_space_in_password": "Nenhum espaço é permitido no início e no final",
-    "title": "Faça login no Open e-Mobility",
+    "title": "Faça login no LeasyCloud",
     "register": "Registar",
     "signup_link": "Novo utilizador? Registar!",
     "signin_link": "Você ja tem uma conta? Faça Login!",
@@ -613,7 +613,7 @@
     "verify_email_proceed_with_activation": "A Sua conta ainda está inativa! Quer reenviar o e-mail de ativação?",
     "verify_email_proceed_with_activation_button": "Continuar",
     "invalid_captcha_token": "Token de captcha inválido",
-    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the e-Mobility Software."
+    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the LeasyCloud Software."
   },
   "statistics": {
     "title": "Estatísticas",
@@ -1550,8 +1550,8 @@
     },
     "onboarding": {
       "onboard_action": "Send the onboarding email to the business owner",
-      "onboarding_title": "Open e-Mobility - Account Onboarding",
-      "onboarding_message": "You have been invited to onboard your company as an account connected to the Open e-Mobility platform.",
+      "onboarding_title": "LeasyCloud - Account Onboarding",
+      "onboarding_message": "You have been invited to onboard your company as an account connected to the LeasyCloud platform.",
       "onboarding_message_to_proceed": "Click the link below to complete the onboarding process.",
       "onboarding_congratulations": "Congratulations",
       "onboarding_process_completed": "The onboarding of your account has been completed.",
@@ -1592,9 +1592,9 @@
       "update_success": "As configurações OCPI foram atualizadas com sucesso",
       "update_error": "Ocorreu um erro ao atualizar as configurações OCPI",
       "description": [
-        "E-Mobility fornece um serviço certificado para se conectar a uma plataforma E-Roaming externa.",
+        "LeasyCloud fornece um serviço certificado para se conectar a uma plataforma E-Roaming externa.",
         "Este recurso expõe em tempo real a infraestrutura da estação de carregamento e a disponibilidade por meio do protocolo padrão OCPI (Open Charge Point Interface).",
-        "E-Mobility está atualmente usando a Gireve Inter-Operability Platform (IOP)."
+        "LeasyCloud está atualmente usando a Gireve Inter-Operability Platform (IOP)."
       ]
     },
     "oicp": {
@@ -1608,16 +1608,16 @@
       "update_success": "OICP settings have been updated successfully",
       "update_error": "Error occurred while updating the OICP settings, check the logs",
       "description": [
-        "E-Mobility provides a certified service to connect to an external E-Roaming Platform.",
+        "LeasyCloud provides a certified service to connect to an external E-Roaming Platform.",
         "This feature exposes real-time the charging station infrastructure and availability via the OICP protocol (Open InterCharge Protocol).",
-        "E-Mobility is currently using the Hubject B2B Service Platform (HBS)."
+        "LeasyCloud is currently using the Hubject B2B Service Platform (HBS)."
       ]
     },
     "refund": {
       "description": [
-        "O E-Mobility fornece um serviço de reembolso para um sistema de despesas externas.",
+        "O LeasyCloud fornece um serviço de reembolso para um sistema de despesas externas.",
         "Este recurso permite que o utilizador envie suas sessões para um sistema de despesas e seja reembolsado pela eletricidade que consumiu.",
-        "O E-Mobility está usando o SAP Concur. Mais informações técnicas disponíveis em"
+        "O LeasyCloud está usando o SAP Concur. Mais informações técnicas disponíveis em"
       ],
       "not_found": "Configurações de reembolso não encontradas",
       "create_success": "As configurações de reembolso foram criadas com sucesso",
@@ -1656,7 +1656,7 @@
       "update_success": "As configurações de preços foram atualizadas com sucesso",
       "update_error": "Ocorreu um erro ao atualizar as configurações de preços",
       "simple_pricing_title": "Built-in Pricing Module",
-      "full_description": "Open E-Mobility provides a pricing module which allows a flexible definition of your company's pricing strategy.",
+      "full_description": "LeasyCloud provides a pricing module which allows a flexible definition of your company's pricing strategy.",
       "pricing_currency_changed_title": "Modification of the currency",
       "pricing_currency_changed_confirm": [
         "You are about to change the currency. This will force you to reconnect after saving.",
@@ -1786,7 +1786,7 @@
         "force_synchronize_user_failure": "Falha ao sincronizar o utilizador, verifique os registos"
       },
       "stripe": {
-        "description": "E-Mobility permite enviar faturas para os usuários da estação de carregamento com Stripe ...",
+        "description": "LeasyCloud permite enviar faturas para os usuários da estação de carregamento com Stripe ...",
         "title": "Stripe",
         "url": "URL do Stripe Dashboard",
         "public_key": "Chave de API publicável",
@@ -1807,9 +1807,9 @@
         "settings": "Configurações"
       },
       "description": [
-        "A E-Mobility expõe seus dados a ferramentas analíticas externas.",
+        "A LeasyCloud expõe seus dados a ferramentas analíticas externas.",
         "Este recurso expõe em tempo real todos os dados da sessão por meio de um conector para ferramentas analíticas de dados externas.",
-        "A E-Mobility está usando o SAP Analytics Cloud por meio de um conector OData.",
+        "A LeasyCloud está usando o SAP Analytics Cloud por meio de um conector OData.",
         "SAP Analytics Cloud suporta o uso inteligente de dados de cobrança para simplificar a tomada de decisões operacionais.",
         "Mais informações técnicas disponíveis em"
       ],
@@ -1831,7 +1831,7 @@
         "limit_buffer_dc": "Buffer for Limit DC (%)",
         "limit_buffer_ac": "Buffer for Limit AC (%)"
       },
-      "description": "E-Mobility pode usar algoritmo de carregamento inteligente para otimizar a distribuição de energia e horários de carregamento com base em restrições complexas",
+      "description": "LeasyCloud pode usar algoritmo de carregamento inteligente para otimizar a distribuição de energia e horários de carregamento com base em restrições complexas",
       "setting_do_not_exist": "A configuração não foi encontrada",
       "setting_not_found": "As configurações do SAP Carregamento Inteligente não foram encontradas",
       "create_success": "As configurações do SAP Carregamento Inteligente foram criadas com sucesso",
@@ -1874,7 +1874,7 @@
       "unknown_connection_error": "Erro de conexão desconhecido",
       "invalid_grant": "Utilizador ou senha incorreta",
       "connection_failed": "Conexão falhou",
-      "description": "O E-Mobility pode gerenciar o consumo de seus ativos e usar essas informações com o algoritmo de carregamento inteligente para equilibrar os consumos da estação de carregamento para uma determinada área do local.",
+      "description": "O LeasyCloud pode gerenciar o consumo de seus ativos e usar essas informações com o algoritmo de carregamento inteligente para equilibrar os consumos da estação de carregamento para uma determinada área do local.",
       "setting_do_not_exist": "A configuração não foi encontrada",
       "setting_not_found": "As configurações de ativos não foram encontradas",
       "create_success": "As configurações do ativo foram criadas com sucesso",
@@ -1906,7 +1906,7 @@
         "revoke_success": "Your connection with Mercedes has been successfully revoked",
         "revoke_error": "Error occurred while revoking your connection with Mercedes, check the logs"
       },
-      "description": "E-Mobility can get real time data of your cars like the current state of charge and use this information with the smart charging algorithm to optimize charging sessions.",
+      "description": "LeasyCloud can get real time data of your cars like the current state of charge and use this information with the smart charging algorithm to optimize charging sessions.",
       "setting_do_not_exist": "Configuration has not been found",
       "setting_not_found": "Car connector settings have not been found",
       "create_success": "Car connector settings have been created successfully",
@@ -1915,7 +1915,7 @@
       "update_error": "Error occurred while updating the Car connector settings, check the logs"
     },
     "information": "Informação",
-    "activation_contact_msg": "Para ativar esse recurso, entre em contato com seu representante E-Mobility.",
+    "activation_contact_msg": "Para ativar esse recurso, entre em contato com seu representante LeasyCloud.",
     "car": {
       "synchronize_car_catalogs": "Sincronizar carros",
       "synchronize_car_catalogs_dialog_title": "Sincronizar carros",
@@ -2065,8 +2065,8 @@
     "roaming_platforms": "plataforma de Inter Operabilidade",
     "cpo": "Charging Point Operator",
     "enable_cpo": "Enable Charging Point Operator",
-    "emsp": "e-Mobility Service Provider",
-    "enable_emsp": "Enable e-Mobility Service Provider",
+    "emsp": "LeasyCloud Service Provider",
+    "enable_emsp": "Enable LeasyCloud Service Provider",
     "tariff_id": "Tariff ID",
     "owner_name": "Owner Name",
     "description": "Interface de ponto de carga aberta",
@@ -2170,7 +2170,7 @@
     "type_placeholder": "Type",
     "roaming_platforms": "Roaming Platforms",
     "cpo": "Charging Point Operator Identification",
-    "emsp": "E-Mobility Service Provider Identification",
+    "emsp": "LeasyCloud Service Provider Identification",
     "description": "Open InterCharge Protocol",
     "details": "Identification",
     "country_code": "Country code",
@@ -2617,7 +2617,7 @@
         "partial": "{{inSuccess}} sessões foram transferidas com sucesso e {{inError}} sessão (s) encontraram um erro",
         "forbidden_refund_another_user": "Você não pode transferir a sessão de outro utilizador",
         "not_authorized": "Você não está autorizado a realizar esta solicitação",
-        "error": "O aplicativo E-Mobility não conseguiu se conectar ao sistema de reembolso. Contate um administrador.",
+        "error": "O aplicativo LeasyCloud não conseguiu se conectar ao sistema de reembolso. Contate um administrador.",
         "concur_connection_invalid": "A conexão do sistema de reembolso não está configurada corretamente. Contate um administrador.",
         "tenant_concur_connection_invalid": "A organização da configuração do seu sistema de reembolso não está completa. Contate um administrador"
       }

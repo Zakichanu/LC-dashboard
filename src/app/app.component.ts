@@ -12,7 +12,7 @@ import { CONNECTOR_ALL_TYPES_MAP } from './shared/model/charging-stations.model'
   templateUrl: 'app.component.html',
 })
 export class AppComponent {
-  public title = 'e-Mobility';
+  public title = 'LeasyCloud';
 
   public constructor(
     private iconRegistry: MatIconRegistry,

@@ -1246,7 +1246,7 @@ export class ReleaseNotesComponent {
           {
             name: 'Dashboard',
             changes: [
-              `Only Assets belonging to e-Mobility can be updated or deleted`,
+              `Only Assets belonging to LeasyCloud can be updated or deleted`,
               `Allow delete of RFID Card with linked transactions but forbid its creation`,
               `Added getChargingStationTransactions, firmwareDownload, SmartChargingTrigger, InError validation in RESTful endpoint`,
               `Ensure that each User has only one default RFID Card`,
@@ -2129,9 +2129,9 @@ export class ReleaseNotesComponent {
               `Car images are retrieved asynchronously`,
               `Updated Delta Charging Station templates`,
               `Set a default departure time for the SAP Smart Charging`,
-              `Synchronize invoices between Stripe and e-Mobility`,
+              `Synchronize invoices between Stripe and LeasyCloud`,
               `Create invoice on Sessions without Billing data`,
-              `Store and Download invoices (pdf) from e-Mobility`,
+              `Store and Download invoices (pdf) from LeasyCloud`,
               `Prevent billed sessions from being deleted`,
               `Enhanced RFID Card unit tests`,
             ],
@@ -3262,7 +3262,7 @@ export class ReleaseNotesComponent {
           {
             name: 'Front-end',
             changes: [
-              `Productive use of the new e-Mobility front-end`,
+              `Productive use of the new LeasyCloud front-end`,
             ],
           },
           {
